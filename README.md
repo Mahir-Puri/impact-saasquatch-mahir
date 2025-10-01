@@ -1,39 +1,18 @@
-# Mahir → impact.com × SaaSquatch — Personalized Pitch Site
+# Impact Demo (impact.com × SaaSquatch)
 
-This is a tiny, production-style demo built with **React + Vite (TypeScript)**, animated with **Framer Motion**, and charted with **Recharts**. Tailwind is loaded via CDN for fast iteration (no config needed).
+A tiny **personalized site** I built while learning React/TypeScript.  
+It shows a **persona switcher**, a **momentum chart**, and a short **micro-PRD** to match the Frontend Co-op role.
 
-## Run locally
+**Live site:** https://YOUR-URL  
+**Contact:** mpuri@uvic.ca
 
-1) Install Node.js 18+ (or 20+ recommended). Check with:
-```bash
-node -v
-npm -v
-```
+---
 
-2) Install dependencies:
-```bash
-npm install
-```
+## Tech
+- React + Vite (TypeScript)
+- Tailwind (CDN)
+- Framer Motion (animations)
+- Recharts (chart)
+- Lucide (icons)
 
-3) Start the dev server:
-```bash
-npm run dev
-```
-Open the printed local URL (usually http://localhost:5173).
-
-4) Build for production (optional):
-```bash
-npm run build
-npm run preview
-```
-
-## Customize
-
-- Edit `src/App.tsx` to change copy, sections, and features.
-- Swap links in the **Contact** section for your GitHub/LinkedIn.
-- Replace Tailwind (CDN) with a full config if you want design tokens/themeing.
-
-## Deploy
-
-- Drop the folder into Vercel/Netlify as a React/Vite project.
-- Or build locally and upload the `dist/` folder to static hosting.
+---
