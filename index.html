@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mahir → impact.com × SaaSquatch</title>
+    <meta
+      name="description"
+      content="A personalized pitch site by Mahir Puri for impact.com — SaaSquatch (Victoria)"
+    />
+    <!-- Social previews -->
+    <meta
+      property="og:title"
+      content="Mahir → impact.com × SaaSquatch — Personalized Pitch"
+    />
+    <meta
+      property="og:description"
+      content="An interactive micro-product demo built while learning React + TypeScript."
+    />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <!-- Tailwind via CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ["Inter", "ui-sans-serif", "system-ui", "sans-serif"],
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body
+    class="min-h-screen bg-neutral-50 text-neutral-900 dark:bg-neutral-950 dark:text-white"
+  >
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
